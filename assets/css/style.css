@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@100;300;400;500;700&family=Ysabeau+SC:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 60px;
+}
+
+.hero-section {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-color: #02071b;
+  background-size: 111%;
+  background-position: left center;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.hero-section h1 {
+  font-size: 50px;
+}
+
+.hero-section p {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.second-section img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.second-section img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.about-section {
+  padding: 30px 0;
+  background: radial-gradient(ellipse at top, #f8dffc, transparent),
+    radial-gradient(ellipse at bottom, #cddff3, transparent);
+}
+
+.about-section img {
+  height: 320px;
+  transform: scale(1.1);
+  width: 90%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+}
+
+.times {
+  font-family: "timesi";
+}
+
+p {
+  color: #404040;
+}
+
+.head-title h1 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #3d3d3d;
+  margin-bottom: 1rem;
+}
+.exp-section {
+  padding-top: 100px;
+  padding-bottom: 32px;
+}
+.exp-section h2 {
+  color: #5f5f5f;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.list-unstyled {
+  padding: 1rem 0;
+  margin-top: 2em;
+  font-size: 18px;
+  color: #404040;
+}
+.list-unstyled li:not(:last-child) {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #bfc0c2;
+}
+
+.value {
+  background-image: url(../images/Simple\ Shiny.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.value .title h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.left p {
+  font-size: 17px;
+}
+
+.title h3 {
+  color: #747373;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.investment .title h3 {
+  color: #747373;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.investment .title-head {
+  color: #747373;
+}
+
+.img-title h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #494949;
+}
+
+.img-title p {
+  font-size: 14px;
+}
+
+.card {
+  border: none !important;
+  width: 100% !important;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 180px;
+}
+
+.card .card-title {
+  font-weight: 800;
+  color: #353434;
+}
+
+.card-body .card-text {
+  color: rgb(99, 99, 99);
+  word-spacing: -2px;
+  line-height: 19px;
+}
+
+.cta-section {
+  padding: 30px 0;
+  background: #02071b url(../images/Simple\ Shiny.svg) no-repeat;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right center;
+    height: 62vh;
+    display: flex;
+    align-items: center;
+  }
+.hero-section h1{
+font-size: 23px;
+}
+.hero-section p{
+font-size: 23px;
+}
+  .about-section img {
+    height: 320px;
+    width: 100%;
+    margin: auto;
+    transform: scale(1);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+  }
+
+}
